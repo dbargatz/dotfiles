@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Install .gitconfig.
-ln -s .gitconfig ~/.gitconfig
+ln -sf `dirname "$0"`/.gitconfig ~/.gitconfig
